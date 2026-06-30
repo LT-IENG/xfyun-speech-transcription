@@ -95,8 +95,7 @@ build.bat
 ```
 program2/
 ├── main.py                       # 应用入口
-├── api_config.example.json       # API 配置模板（可提交 git）
-├── api_config.json               # API 配置（已忽略，不提交 git）
+├── api_config.example.json       # API 配置模板
 ├── requirements.txt              # Python 依赖
 ├── build.bat                     # PyInstaller 打包脚本
 ├── .gitignore
