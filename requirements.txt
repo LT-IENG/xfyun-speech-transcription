@@ -1,0 +1,5 @@
+PyQt6>=6.5.0
+pydub>=0.25.0
+requests>=2.28.0
+audioop-lts>=0.2.0   # Python 3.13+ 兼容（audioop 模块已移除）
+pyinstaller>=6.0     # EXE 打包

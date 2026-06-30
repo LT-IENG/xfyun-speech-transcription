@@ -1,0 +1,23 @@
+{
+    "_comment": "讯飞录音文件转写大模型 (Ifasr_llm) API 配置文件",
+    "_doc_url": "https://www.xfyun.cn/doc/spark/asr_llm/Ifasr_llm.html",
+    "_usage": "复制本文件为 api_config.json，填入你在讯飞开放平台申请的 API 凭据。api_config.json 已被 .gitignore 忽略，不会上传到 git。",
+    "api": {
+        "upload_url": "https://office-api-ist-dx.iflyaisol.com/v2/upload",
+        "result_url": "https://office-api-ist-dx.iflyaisol.com/v2/getResult",
+        "app_id": "你的APPID",
+        "access_key_id": "你的ACCESS_KEY_ID",
+        "access_key_secret": "你的ACCESS_KEY_SECRET",
+        "language": "autodialect",
+        "role_type": 1,
+        "role_num": 0,
+        "pd": "",
+        "eng_smoothproc": true,
+        "eng_colloqproc": false,
+        "duration_check_disable": false,
+        "poll_interval": 5,
+        "max_poll_time": 3600,
+        "upload_timeout": 120,
+        "result_timeout": 30
+    }
+}

@@ -1,0 +1,38 @@
+# ===== 敏感信息 =====
+api_config.json
+
+# ===== Python 编译缓存 =====
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ===== PyInstaller 构建产物 =====
+build/
+dist/
+*.spec
+*.exe
+
+# ===== 自动生成的 QSS 主题文件 =====
+dark_style.qss
+light_style.qss
+
+# ===== 虚拟环境 =====
+venv/
+.venv/
+env/
+.env
+
+# ===== IDE / 编辑器 =====
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ===== 操作系统 =====
+.DS_Store
+Thumbs.db
+
+# ===== 临时文件 =====
+*.log
+*.tmp
